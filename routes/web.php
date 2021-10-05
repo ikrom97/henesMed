@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\LocalizationController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,6 +14,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+
+// Localization route
+Route::get('/locale', [LocalizationController::class, 'setLang'])->name('localization');
+// Pages' routes
 Route::get('/', function () {
-    return view('welcome');
+    return view('index');
 });
