@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-   <main class="home">
-      {{-- <h1>Home</h1> --}}
+   <main class="nomedservices">
+      <h1>Nomedservices</h1>
    </main>
 @endsection

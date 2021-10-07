@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\LocalizationController;
+use App\Http\Controllers\PagesController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -18,6 +19,13 @@ use Illuminate\Support\Facades\Route;
 // Localization route
 Route::get('/locale', [LocalizationController::class, 'setLang'])->name('localization');
 // Pages' routes
-Route::get('/', function () {
-    return view('index');
-});
+Route::get('/', [PagesController::class, 'home'])->name('home');
+Route::get('/about', [PagesController::class, 'about'])->name('about');
+Route::get('/gallery', [PagesController::class, 'gallery'])->name('gallery');
+Route::get('/medservices', [PagesController::class, 'medservices'])->name('medservices');
+Route::get('/nomedservices', [PagesController::class, 'nomedservices'])->name('nomedservices');
+Route::get('/worksystem', [PagesController::class, 'worksystem'])->name('worksystem');
+Route::get('/countries', [PagesController::class, 'countries'])->name('countries');
+Route::get('/partners', [PagesController::class, 'partners'])->name('partners');
+Route::get('/reviews', [PagesController::class, 'reviews'])->name('reviews');
+Route::get('/contacts', [PagesController::class, 'contacts'])->name('contacts');

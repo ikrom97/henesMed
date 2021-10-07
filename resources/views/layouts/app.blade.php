@@ -7,8 +7,6 @@
    <title>Henes Med</title>
    {{-- Font awesome --}}
    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-   {{-- Bootstrap grid --}}
-   <link rel="stylesheet" href="{{asset('css/bootstrap-grid.min.css')}}">
    <!-- Owl carousel -->
    <link rel="stylesheet" href="{{asset('css/owl.carousel.min.css')}}">
    {{-- App styles --}}
