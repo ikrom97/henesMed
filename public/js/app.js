@@ -54,17 +54,96 @@ if (header) {
 /*!*******************************!*\
   !*** ./resources/js/index.js ***!
   \*******************************/
-var commentsCarousel = document.querySelector('.comments__carousel');
+var commentsCarousel = document.querySelector('.comments-slide');
 
 if (commentsCarousel) {
-  $(".comments__carousel").owlCarousel({
+  $(".comments-slide").owlCarousel({
     loop: true,
+    nav: true,
     autoplay: true,
     autoplayTimeout: 5000,
     autoplayHoverPause: true,
     items: 1
   });
 }
+})();
+
+// This entry need to be wrapped in an IIFE because it need to be isolated against other entry modules.
+(() => {
+/*!*******************************************!*\
+  !*** ./resources/js/pages/about/index.js ***!
+  \*******************************************/
+
+})();
+
+// This entry need to be wrapped in an IIFE because it need to be isolated against other entry modules.
+(() => {
+/*!**********************************************!*\
+  !*** ./resources/js/pages/contacts/index.js ***!
+  \**********************************************/
+
+})();
+
+// This entry need to be wrapped in an IIFE because it need to be isolated against other entry modules.
+(() => {
+/*!***********************************************!*\
+  !*** ./resources/js/pages/countries/index.js ***!
+  \***********************************************/
+
+})();
+
+// This entry need to be wrapped in an IIFE because it need to be isolated against other entry modules.
+(() => {
+/*!*********************************************!*\
+  !*** ./resources/js/pages/gallery/index.js ***!
+  \*********************************************/
+var gallery = document.querySelector('.gallery');
+
+if (gallery) {
+  new SimpleLightbox('.gallery a', {
+    /* options */
+  });
+}
+})();
+
+// This entry need to be wrapped in an IIFE because it need to be isolated against other entry modules.
+(() => {
+/*!*************************************************!*\
+  !*** ./resources/js/pages/medservices/index.js ***!
+  \*************************************************/
+
+})();
+
+// This entry need to be wrapped in an IIFE because it need to be isolated against other entry modules.
+(() => {
+/*!***************************************************!*\
+  !*** ./resources/js/pages/nomedservices/index.js ***!
+  \***************************************************/
+
+})();
+
+// This entry need to be wrapped in an IIFE because it need to be isolated against other entry modules.
+(() => {
+/*!**********************************************!*\
+  !*** ./resources/js/pages/partners/index.js ***!
+  \**********************************************/
+
+})();
+
+// This entry need to be wrapped in an IIFE because it need to be isolated against other entry modules.
+(() => {
+/*!*********************************************!*\
+  !*** ./resources/js/pages/reviews/index.js ***!
+  \*********************************************/
+
+})();
+
+// This entry need to be wrapped in an IIFE because it need to be isolated against other entry modules.
+(() => {
+/*!************************************************!*\
+  !*** ./resources/js/pages/worksystem/index.js ***!
+  \************************************************/
+
 })();
 
 /******/ })()

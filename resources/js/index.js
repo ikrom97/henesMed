@@ -1,7 +1,8 @@
-const commentsCarousel = document.querySelector('.comments__carousel');
+const commentsCarousel = document.querySelector('.comments-slide');
 if (commentsCarousel) {
-   $(".comments__carousel").owlCarousel({
+   $(".comments-slide").owlCarousel({
       loop: true,
+      nav: true,
       autoplay: true,
       autoplayTimeout: 5000,
       autoplayHoverPause: true,

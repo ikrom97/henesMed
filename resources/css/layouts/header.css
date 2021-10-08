@@ -65,6 +65,7 @@
    min-width: 100%;
    background-color: #fff;
    display: none;
+   z-index: 9;
 }
 
 .header-top-wrapper {
