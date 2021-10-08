@@ -1,0 +1,90 @@
+.medservice__text,
+.deseases__text {
+   margin-bottom: 30px;
+}
+.medservice-page {
+   padding-bottom: 30px;
+}
+.deseases-list {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   gap: 30px;
+}
+.deseases-item {
+   width: 350px;
+   display: flex;
+   flex-direction: column;
+}
+.deseases-title {
+   display: flex;
+   align-items: center;
+   gap: 10px;
+   font-size: 16px;
+}
+.deseases-title::before {
+   content: "";
+   background-color: var(--primary);
+   display: block;
+   height: 60px;
+   width: 60px;
+   border-radius: 50%;
+}
+.deseases-item:first-child .deseases-title::before {
+   background-image: url('../img/desease1.png');
+   background-size: 30px;
+   background-position: center;
+   background-repeat: no-repeat;
+}
+.deseases-item:nth-child(2) .deseases-title::before {
+   background-image: url('../img/desease2.png');
+   background-size: 30px;
+   background-position: center;
+   background-repeat: no-repeat;
+}
+.deseases-item:nth-child(3) .deseases-title::before {
+   background-image: url('../img/desease3.png');
+   background-size: 30px;
+   background-position: center;
+   background-repeat: no-repeat;
+}
+.deseases-item:nth-child(4) .deseases-title::before {
+   background-image: url('../img/desease4.png');
+   background-size: 30px;
+   background-position: center;
+   background-repeat: no-repeat;
+}
+.deseases-item:last-child .deseases-title::before {
+   background-image: url('../img/desease5.png');
+   background-size: 30px;
+   background-position: center;
+   background-repeat: no-repeat;
+}
+.deseases-item ul {
+   list-style: circle;
+   font-size: 15px;
+   display: flex;
+   flex-direction: column;
+   margin-left: 100px;
+}
+.deseases-item li {
+   max-width: 400px;
+}
+
+@media screen and (max-width: 1399px) {
+}
+@media screen and (max-width: 1199px) {
+}
+@media screen and (max-width: 991px) {
+
+}
+@media screen and (max-width: 767px) {
+   .deseases-item {
+      width: 400px;
+   }
+}
+@media screen and (max-width: 575px) {
+   .deseases-item {
+      width: 100%;
+   }
+}
