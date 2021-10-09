@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\LocalizationController;
 use App\Http\Controllers\PagesController;
+use App\Http\Controllers\AuthController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,18 +15,23 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::post('/auth/check', [AuthController::class, 'check'])->name('auth.check');
+Route::get('/auth/logout', [AuthController::class, 'logout'])->name( 'auth.logout');
 
-
-// Localization route
-Route::get('/locale', [LocalizationController::class, 'setLang'])->name('localization');
-// Pages' routes
-Route::get('/', [PagesController::class, 'home'])->name('home');
-Route::get('/about', [PagesController::class, 'about'])->name('about');
-Route::get('/gallery', [PagesController::class, 'gallery'])->name('gallery');
-Route::get('/medservices', [PagesController::class, 'medservices'])->name('medservices');
-Route::get('/nomedservices', [PagesController::class, 'nomedservices'])->name('nomedservices');
-Route::get('/worksystem', [PagesController::class, 'worksystem'])->name('worksystem');
-Route::get('/countries', [PagesController::class, 'countries'])->name('countries');
-Route::get('/partners', [PagesController::class, 'partners'])->name('partners');
-Route::get('/reviews', [PagesController::class, 'reviews'])->name('reviews');
-Route::get('/contacts', [PagesController::class, 'contacts'])->name('contacts');
+Route::group(['middleware' => 'AuthMiddleware'], function () {
+   // Authentication routes
+   Route::get('/auth/login', [AuthController::class, 'login'])->name('auth.login');
+   // Localization route
+   Route::get('/locale', [LocalizationController::class, 'setLang'])->name('localization');
+   // Pages' routes
+   Route::get('/', [PagesController::class, 'home'])->name('home');
+   Route::get('/about', [PagesController::class, 'about'])->name('about');
+   Route::get('/gallery', [PagesController::class, 'gallery'])->name('gallery');
+   Route::get('/medservices', [PagesController::class, 'medservices'])->name('medservices');
+   Route::get('/nomedservices', [PagesController::class, 'nomedservices'])->name('nomedservices');
+   Route::get('/worksystem', [PagesController::class, 'worksystem'])->name('worksystem');
+   Route::get('/countries', [PagesController::class, 'countries'])->name('countries');
+   Route::get('/partners', [PagesController::class, 'partners'])->name('partners');
+   Route::get('/reviews', [PagesController::class, 'reviews'])->name('reviews');
+   Route::get('/contacts', [PagesController::class, 'contacts'])->name('contacts');
+});

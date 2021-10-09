@@ -54,10 +54,10 @@
                <a class="socials__link socials__link--whatsapp" href="#">{{__('messages.whatsapp')}}</a>
             </li>
             <li class="socials__item">
-               <a class="socials__link socials__link--email" href="#">{{__('messages.email')}}</a>
+               <a class="socials__link socials__link--email" href="#">{{__('messages.call')}}</a>
             </li>
             <li class="socials__item">
-               <a class="socials__link socials__link--call" href="#">{{__('messages.call')}}</a>
+               <a class="socials__link socials__link--logout" href="{{route('auth.logout')}}">{{__('messages.logout')}}</a>
             </li>
          </ul>
          <ul class="localizations">

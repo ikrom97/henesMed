@@ -70,6 +70,22 @@ if (commentsCarousel) {
 
 // This entry need to be wrapped in an IIFE because it need to be isolated against other entry modules.
 (() => {
+/*!************************************!*\
+  !*** ./resources/js/auth/login.js ***!
+  \************************************/
+
+})();
+
+// This entry need to be wrapped in an IIFE because it need to be isolated against other entry modules.
+(() => {
+/*!*************************************!*\
+  !*** ./resources/js/auth/master.js ***!
+  \*************************************/
+
+})();
+
+// This entry need to be wrapped in an IIFE because it need to be isolated against other entry modules.
+(() => {
 /*!*******************************************!*\
   !*** ./resources/js/pages/about/index.js ***!
   \*******************************************/
