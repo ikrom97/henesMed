@@ -4,7 +4,7 @@
    <main class="partners-page">
       <h1 class="heading txt-center">{{__('messages.ourPartners')}}</h1>
       <section class="partners">
-         <div class="container">
+         <div class="container partners__container">
             <p class="partners__text txt-center">{{__('messages.partnersText')}}</p>
             <ul class="partners-list partners-page__partners-list">
                <li class="partners-item">
@@ -27,11 +27,12 @@
          </div>
       </section>
       <section class="invitation">
-         <div class="container">
+         <div class="container invitation__container">
             <h2 class="title txt-center">{{__('messages.invitationCooperation')}}</h2>
             <p class="invitation__text">{{__('messages.invitationText')}}</p>
             <a class="button invitation__link" href="{{route('contacts')}}">{{__('messages.submitApplication')}}</a>
             <div class="invitation-info">
+               <img class="invitation-img" src="{{asset('img/invitation.png')}}">
                <b class="invitation-info__title">Мы предоставляем всю информацию и открыты для сотрудничества.</b>
                <p class="invitation-info__text">Упрощаем жизнь. Создаём комфорт. Демонстрируем качество.</p>
                <p class="invitation-info__text">

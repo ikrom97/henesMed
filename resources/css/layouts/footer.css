@@ -55,6 +55,9 @@
 .contact-links__link--feedback::before {
    content: "\f007";
 }
+.contact-links__link--site::before {
+   content: "\f0c6";
+}
 
 .copyright {
    color: #fff;

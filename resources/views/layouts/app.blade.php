@@ -13,6 +13,7 @@
    <link href="{{asset('css/simple-lightbox.min.css')}}" rel="stylesheet">
    {{-- App styles --}}
    <link rel="stylesheet" href="{{mix('css/app.css')}}">
+   <script src="//code-eu1.jivosite.com/widget/G1qG7UkbiE" async></script>
 </head>
 <body>
    @include('layouts.header')
