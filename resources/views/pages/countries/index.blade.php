@@ -3,7 +3,7 @@
 @section('content')
    <main class="countries">
       <div class="container">
-         <h1 class="heading txt-center">{{__('messages.countries')}}</h1>
+         <h1 class="heading txt-center">{{__('Страны')}}</h1>
          <ul class="countries-list">
             <li class="countries-item">
                <a class="countries-link" href="#">

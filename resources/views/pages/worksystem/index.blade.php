@@ -3,10 +3,10 @@
 @section('content')
    <main class="worksystem">
       <div class="container">
-         <h1 class="heading txt-center">{{__('messages.workSystemHenesMed')}}</h1>
-         <p class="txt-center">{{__('messages.workSystemText')}}</p>
+         <h1 class="heading txt-center">{{__('Система работы - Henes Med')}}</h1>
+         <p class="txt-center">{{__('Страница услуг содержит информацию о процессе получения услуги по лечению.')}}</p>
          <section class="process">
-            <h2 class="title txt-center">{{__('messages.processTitle')}}:</h2>
+            <h2 class="title txt-center">{{__('Процесс получения услуги по лечению')}}:</h2>
             <ol class="process-list">
                <li class="process-item">
                   <h3 class="process-item__title">Вы отправляете заявку</h3>

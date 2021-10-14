@@ -3,8 +3,10 @@
 @section('content')
    <main class="about">
       <div class="container">
-         <h1 class="heading txt-center">{{__('messages.aboutUs')}}</h1>
-         <p class="txt-center">{{__('messages.aboutText')}}</p>
+         <h1 class="heading txt-center">{{__('О нас')}}</h1>
+         <p class="txt-center">
+            {{__('Компания медицинского туризма Henes Med оказывает весь спектр комплексных услуг по организации, сопровождению медицинской поездки с целью получения: лечения, диагностики, обследования, реабилитации и профилактики в медицинских учреждениях.')}}
+         </p>
          <img class="about-banner" src="{{asset('img/about.jpg')}}">
          <p class="about__text">
             <b>Компания Henes Med </b> — это официальная структура, мы помогаем и представляем интересы частных и

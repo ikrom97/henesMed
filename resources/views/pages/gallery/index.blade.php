@@ -3,7 +3,7 @@
 @section('content')
    <main class="gallery-page">
       <div class="container">
-         <h1 class="heading txt-center">{{__('messages.gallery')}}</h1>
+         <h1 class="heading txt-center">{{__('Галлерея')}}</h1>
          <div class="gallery">
             <a class="big" href="{{asset('img/gallery/full/01.jpg')}}">
                <img src="{{asset('img/gallery/thumb/01.jpg')}}" alt="Красивая картинка" title="Красивая картинка">

@@ -3,7 +3,7 @@
 @section('content')
    <main class="reviews-page">
       <div class="container">
-         <h1 class="heading txt-center">{{__('messages.ourClientsComments')}}</h1>
+         <h1 class="heading txt-center">{{__('Отзывы наших клиентов')}}</h1>
          <ul class="reviews">
             <li class="reviews__item">
                <img class="reviews__img" src="{{asset('img/nikolay.png')}}">

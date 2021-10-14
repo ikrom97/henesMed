@@ -4,7 +4,7 @@
    <main class="login-page">
       <div class="container login-page__container">
          <img class="login-img" src="{{asset('img/login.png')}}">
-         <h1 class="heading txt-center login-title">{{__('messages.login')}}</h1>
+         <h1 class="heading txt-center login-title">{{__('Вход')}}</h1>
          <form class="login-form" action="{{route('auth.check')}}" method="POST">
             @csrf
             @if (Session::get('fail'))
@@ -22,7 +22,7 @@
                <span class="login-form__error">{{$message}}</span>
                @enderror
             </label>
-            <button class="button login-form__submit-btn" type="submit">{{__('messages.login')}}</button>
+            <button class="button login-form__submit-btn" type="submit">{{__('Вход')}}</button>
          </form>
       </div>
    </main>

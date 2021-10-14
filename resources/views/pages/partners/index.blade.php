@@ -2,10 +2,12 @@
 
 @section('content')
    <main class="partners-page">
-      <h1 class="heading txt-center">{{__('messages.ourPartners')}}</h1>
+      <h1 class="heading txt-center">{{__('Наши партнеры')}}</h1>
       <section class="partners">
          <div class="container partners__container">
-            <p class="partners__text txt-center">{{__('messages.partnersText')}}</p>
+            <p class="partners__text txt-center">
+               {{__('Мы имеем все необходимые лицензии и сертификаты для оказания медицинских услуг, вот почему нам доверяют.')}}
+            </p>
             <ul class="partners-list partners-page__partners-list">
                <li class="partners-item">
                   <img class="partners-img" src="{{asset('img/partner1.jpg')}}">
@@ -28,9 +30,11 @@
       </section>
       <section class="invitation">
          <div class="container invitation__container">
-            <h2 class="title txt-center">{{__('messages.invitationCooperation')}}</h2>
-            <p class="invitation__text">{{__('messages.invitationText')}}</p>
-            <a class="button invitation__link" href="{{route('contacts')}}">{{__('messages.submitApplication')}}</a>
+            <h2 class="title txt-center">{{__('Приглашаем к сотрудничеству')}}</h2>
+            <p class="invitation__text">
+               {{__('Мы заинтересованы в развитии и тесном сотрудничестве с другими медицинскими организациями и центрами, а также открытие представительств в странах Америки, Европы и стран СНГ.')}}
+            </p>
+            <a class="button invitation__link" href="{{route('contacts')}}">{{__('Оставить заявку')}}</a>
             <div class="invitation-info">
                <img class="invitation-img" src="{{asset('img/invitation.png')}}">
                <b class="invitation-info__title">Мы предоставляем всю информацию и открыты для сотрудничества.</b>

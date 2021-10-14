@@ -3,16 +3,16 @@
       <nav class="footer-navigation">
          <ul class="socials footer__socials">
             <li class="socials__item">
-               <a class="socials__link socials__link--white socials__link--facebook" href="#">{{__('messages.facebook')}}</a>
+               <a class="socials__link socials__link--white socials__link--facebook" href="#">{{__('Фейсбук')}}</a>
             </li>
             <li class="socials__item">
-               <a class="socials__link socials__link--white socials__link--instagram" href="#">{{__('messages.instagram')}}</a>
+               <a class="socials__link socials__link--white socials__link--instagram" href="#">{{__('Инстаграм')}}</a>
             </li>
             <li class="socials__item">
-               <a class="socials__link socials__link--white socials__link--vk" href="#">{{__('messages.vk')}}</a>
+               <a class="socials__link socials__link--white socials__link--vk" href="#">{{__('В контакте')}}</a>
             </li>
             <li class="socials__item">
-               <a class="socials__link socials__link--white socials__link--whatsapp" href="#">{{__('messages.whatsapp')}}</a>
+               <a class="socials__link socials__link--white socials__link--whatsapp" href="#">{{__('Ватсап')}}</a>
             </li>
          </ul>
          <ul class="contact-links">
@@ -27,6 +27,6 @@
             </li>
          </ul>
       </nav>
-      <p class="copyright">{{__('messages.copyright')}}</p>
+      <p class="copyright">{{__('Henes Med 2021 © Все права защищены')}}</p>
    </div>
 </footer>

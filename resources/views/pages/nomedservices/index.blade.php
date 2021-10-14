@@ -4,7 +4,7 @@
    <main class="nomedservices-page">
       <section class="whywe">
          <div class="container">
-            <h2 class="title txt-center">{{__('messages.whyWe')}}?</h2>
+            <h2 class="title txt-center">{{__('Почему мы')}}?</h2>
             <ul class="whywe-list">
                <li class="whywe-item">Бесплатная консультация</li>
                <li class="whywe-item">Лучшие специалисты и ведущие медицинские учреждения</li>
@@ -21,7 +21,7 @@
       </section>
       <section class="ourservices">
          <div class="container">
-            <h2 class="title txt-center">{{__('messages.ourServices')}}</h2>
+            <h2 class="title txt-center">{{__('Наши услуги')}}</h2>
             <ul class="ourservices-list">
                <li class="ourservices-item">Бесплатная онлайн консультация по вопросам связанным с организацией Вашего тура</li>
                <li class="ourservices-item">Организация быстрой консультации с врачами касательно Вашего лечения (через Интернет)</li>
