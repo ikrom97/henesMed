@@ -278,13 +278,13 @@ img {
    content: "\f16d";
    font-size: 24px;
 }
-.socials__link--vk::after {
+.socials__link--viber::after {
    font-family: "Font Awesome 5 Brands";
-   content: "\f189";
+   content: "\f409";
    font-size: 24px;
 }
 .socials__link--logout::after {
-   content: "\f2f5";
+   content: "\f189";
    font-size: 20px;
 }
 .localizations {
@@ -630,55 +630,13 @@ img {
    margin-bottom: 10px;
    margin-left: 10px;
 }
-.home-service__container {
-   max-width: 1000px;
-   position: relative;
-   margin: 0px auto;
+.home-service {
    display: flex;
+   flex-direction: column;
    justify-content: center;
-   margin-top: 40px;
-   margin-bottom: 100px;
-   gap: 40px;
 }
-.home-service__item {
-   background-color: var(--primary);
-   display: flex;
-   color: #fff;
-   text-decoration: none;
-   font-size: 16px;
+.home__countries-list {
    justify-content: center;
-   align-items: center;
-   width: 180px;
-   height: 90px;
-   padding: 20px;
-   border-radius: 50%;
-   text-align: center;
-}
-.home-service__link {
-   position: relative;
-   top: 80px;
-   left: 0px;
-}
-.home-service__link:hover {
-   text-decoration: underline;
-}
-.home-service__link::before {
-   content: "";
-   position: absolute;
-   display: block;
-   height: 2px;
-   width: 120%;
-   background-color: var(--primary);
-   top: 0px;
-   z-index: -1;
-}
-.home-service__link--left::before {
-   left: 50%;
-   transform: rotateZ(-20deg);
-}
-.home-service__link--right::before {
-   right: 50%;
-   transform: rotateZ(20deg);
 }
 /*! Services */
 .services {

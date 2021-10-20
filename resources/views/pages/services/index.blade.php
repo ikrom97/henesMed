@@ -14,7 +14,7 @@
                партнеров. Рекомендуя пациентам то или иное медицинское учреждение, мы в первую 
                очередь используем систематический статистический подход.')}}
             </p>
-            <h2 class="title txt-center">{{__('Медицинские услуги')}}</h2>
+            <h2 class="title txt-center"  id="medservices">{{__('Медицинские услуги')}}</h2>
             <ul class="services">
                <li class="services-item">
                   <img class="services__img" src="{{asset('img/service1.png')}}">
@@ -103,7 +103,7 @@
                   <h3 class="services__title">Объездной медицинский туризм </h3>
                </li>
             </ul>
-            <h2 class="title txt-center">{{__('Не медицинские услуги')}}</h2>
+            <h2 class="title txt-center" id="nomedservices">{{__('Не медицинские услуги')}}</h2>
             <ul class="services">
                <li class="services-item">
                   <img class="services__img" src="{{asset('img/service1.png')}}">

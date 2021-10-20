@@ -185,13 +185,13 @@
    content: "\f16d";
    font-size: 24px;
 }
-.socials__link--vk::after {
+.socials__link--viber::after {
    font-family: "Font Awesome 5 Brands";
-   content: "\f189";
+   content: "\f409";
    font-size: 24px;
 }
 .socials__link--logout::after {
-   content: "\f2f5";
+   content: "\f189";
    font-size: 20px;
 }
 .localizations {

@@ -9,7 +9,7 @@
                <a class="socials__link socials__link--white socials__link--instagram" href="#">{{__('Инстаграм')}}</a>
             </li>
             <li class="socials__item">
-               <a class="socials__link socials__link--white socials__link--vk" href="#">{{__('В контакте')}}</a>
+               <a class="socials__link socials__link--white socials__link--viber" href="#">{{__('В контакте')}}</a>
             </li>
             <li class="socials__item">
                <a class="socials__link socials__link--white socials__link--whatsapp" href="#">{{__('Ватсап')}}</a>

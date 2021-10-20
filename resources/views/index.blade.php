@@ -12,10 +12,22 @@
             </div>
          </div>
       </section>
-      <section class="home-service__container">
-         <a class="home-service__item home-service__link home-service__link--left" href="{{route('services')}}">{{__('Медицинские услуги')}}</a>
-         <h2 class="home-service__item">{{__('Услуги')}}</h2>
-         <a class="home-service__item home-service__link home-service__link--right" href="{{route('services')}}">{{__('Не медицинские услуги')}}</a>
+      <section class="home-service">
+         <h2 class="title txt-center">{{__('Услуги')}}</h2>
+         <ul class="countries-list home__countries-list">
+            <li class="countries-item">
+               <a class="countries-link" href="{{route('services')}}">
+                  <img class="countries-link__img" src="{{asset('img/country1.jpg')}}">
+                  <h3 class="countries-link__title txt-center">{{__('Медицинские услуги')}}</h3>
+               </a>
+            </li>
+            <li class="countries-item">
+               <a class="countries-link" href="{{route('services')}}#nomedservices">
+                  <img class="countries-link__img" src="{{asset('img/country2.jpg')}}">
+                  <h3 class="countries-link__title txt-center">{{__('Не медицинские услуги')}}</h3>
+               </a>
+            </li>
+         </ul>
       </section>
       <section class="partners">
          <div class="container">
