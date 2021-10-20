@@ -27,8 +27,7 @@ Route::group(['middleware' => 'AuthMiddleware'], function () {
    Route::get('/', [PagesController::class, 'home'])->name('home');
    Route::get('/about', [PagesController::class, 'about'])->name('about');
    Route::get('/gallery', [PagesController::class, 'gallery'])->name('gallery');
-   Route::get('/medservices', [PagesController::class, 'medservices'])->name('medservices');
-   Route::get('/nomedservices', [PagesController::class, 'nomedservices'])->name('nomedservices');
+   Route::get('/services', [PagesController::class, 'services'])->name('services');
    Route::get('/worksystem', [PagesController::class, 'worksystem'])->name('worksystem');
    Route::get('/countries', [PagesController::class, 'countries'])->name('countries');
    Route::get('/partners', [PagesController::class, 'partners'])->name('partners');

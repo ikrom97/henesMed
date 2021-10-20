@@ -52,7 +52,6 @@
 .services {
    display: flex;
    flex-wrap: wrap;
-   gap: 2px;
    justify-content: center;
 }
 .services-item {
@@ -60,11 +59,15 @@
    flex-direction: column;
    position: relative;
    background-color: var(--primary);
-   width: 300px;
-   height: 250px;
+   width: 220px;
+   height: 200px;
    overflow: hidden;
-   padding-top: 211px;
+   padding-top: 161px;
    transition: 0.7s;
+   margin: 1px;
+}
+.services-item--long-title {
+   padding-top: 142px;
 }
 .services-item:hover {
    padding-top: 0px;
@@ -86,7 +89,7 @@
    list-style: disc;
    flex-grow: 1;
    background-color: #fff;
-   padding: 10px 15px 10px 30px;
+   padding: 5px 5px 5px 20px;
    z-index: 0;
    display: flex;
    flex-direction: column;
@@ -235,9 +238,6 @@
 @media screen and (max-width: 991px) {
    .vitrin {
       height: calc(100vh - 70px);
-   }
-   .services-item {
-      flex-grow: 1;
    }
    .partners-img {
       max-width: 150px;

@@ -334,7 +334,7 @@
 @media screen and (max-width: 767px) {
    .search.hidden {
       position: absolute;
-      right: 267px;
+      right: 174px;
    }
    .search {
       position: absolute;
@@ -358,7 +358,7 @@
       width: 100%;
    }
    .search.hidden {
-      right: 222px;
+      right: 143px;
       width: 34px;
    }
    .search {

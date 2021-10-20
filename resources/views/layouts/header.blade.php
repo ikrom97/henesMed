@@ -17,15 +17,7 @@
                </ul>
             </li>
             <li class="pages-navigation__item">
-               <a class="pages-navigation__link {{$route == 'medservices' || $route == 'nomedservices' ? 'pages-navigation__link--active' : ''}}">{{__('Услуги')}}</a>
-               <ul class="dropdown-links">
-                  <li class="dropdown-links__item">
-                     <a class="dropdown-links__link" href="{{route('medservices')}}">{{__('Медицинские услуги')}}</a>
-                  </li>
-                  <li class="dropdown-links__item">
-                     <a class="dropdown-links__link" href="{{route('nomedservices')}}">{{__('Не медицинские услуги')}}</a>
-                  </li>
-               </ul>
+               <a class="pages-navigation__link {{$route == 'services' ? 'pages-navigation__link--active' : ''}}" href="{{route('services')}}">{{__('Услуги')}}</a>
             </li>
             <li class="pages-navigation__item">
                <a class="pages-navigation__link {{$route == 'worksystem' ? 'pages-navigation__link--active' : ''}}" href="{{route('worksystem')}}">{{__('Система работы')}}</a>
@@ -50,12 +42,6 @@
             <button class="search__button" type="button"></button>
          </form>
          <ul class="socials">
-            <li class="socials__item">
-               <a class="socials__link socials__link--whatsapp" href="#">{{__('Ватсап')}}</a>
-            </li>
-            <li class="socials__item">
-               <a class="socials__link socials__link--email" href="#">{{__('Позвонить')}}</a>
-            </li>
             <li class="socials__item">
                <a class="socials__link socials__link--logout" href="{{route('auth.logout')}}">{{__('Выйти')}}</a>
             </li>
@@ -84,15 +70,7 @@
          </ul>
       </li>
       <li class="mobile-navigation__item">
-         <a class="mobile-navigation__link">{{__('Услуги')}}</a>
-         <ul class="mobile-dropdown-links hidden">
-            <li class="mobile-dropdown-links__item">
-               <a class="mobile-dropdown-links__link" href="{{route('medservices')}}">{{__('Медицинские услуги')}}</a>
-            </li>
-            <li class="mobile-dropdown-links__item">
-               <a class="mobile-dropdown-links__link" href="{{route('nomedservices')}}">{{__('Не медицинские услуги')}}</a>
-            </li>
-         </ul>
+         <a class="mobile-navigation__link" href="{{route('services')}}">{{__('Услуги')}}</a>
       </li>
       <li class="mobile-navigation__item">
          <a class="mobile-navigation__link" href="{{route('worksystem')}}">{{__('Система работы')}}</a>

@@ -6,8 +6,7 @@
          <video class="vitrin-video" src="{{asset('videos/vitrin.webm')}}" autoplay loop muted></video>
          <div class="container vitrin__container">
             <div class="vitrin-wrapper">
-               <p>{{__('Henes Med является агентством медицинского туризма. Мы предоставляем услуги по подбору лечений в клиниках для иностранных пациентов.')}}</p>
-               <h1 class="heading vitrin__heading">{{__('Henes Med - Агентство Медицинского Туризма')}}</h1>
+               <h1 class="heading vitrin__heading">{{__('Henes Medservices Tajikistan – Первое широкопрофильное Агентство по Медицинскому Туризму в Таджикистане.')}}</h1>
                <a class="button vitrin__button" href="{{route('contacts')}}">{{__('Свяжитесь с нами')}}</a>
                <a class="button vitrin__button button--white" href="{{route('about')}}">{{__('О нас')}}</a>
             </div>
@@ -19,135 +18,89 @@
             <ul class="services">
                <li class="services-item">
                   <img class="services__img" src="{{asset('img/service1.png')}}">
-                  <h3 class="services__title">Стоматология</h3>
+                  <h3 class="services__title">Профилактика</h3>
                   <ul>
-                     <li>Протезирование зубов</li>
-                     <li>Дентальная имплантация</li>
-                     <li>Детская стоматология</li>
-                     <li>Протезирование зубов</li>
+                     <li>
+                        Общая проверка организма, индивидуальные программы по проверке организма, 
+                        вакцинация, профилактические программы и т.д.)
+                     </li>
                   </ul>
-                  <a class="services__further" href="#">{{__('Далее')}}</a>
                </li>
                <li class="services-item">
                   <img class="services__img" src="{{asset('img/service2.png')}}">
-                  <h3 class="services__title">Диагностика & CHECK-UP</h3>
+                  <h3 class="services__title">Телемедицина</h3>
                   <ul>
-                     <li>Все виды диагностических услуг</li>
-                     <li>Радионуклидная диагностика</li>
-                     <li>МРТ, КТ, УЗИ, ПЭТ, коронарография</li>
-                     <li>Диагностика CHECK-UP</li>
+                     <li>
+                        Организация онлайн консультаций с врачами/специалистами из других стран мира
+                     </li>
                   </ul>
-                  <a class="services__further" href="#">{{__('Далее')}}</a>
                </li>
                <li class="services-item">
                   <img class="services__img" src="{{asset('img/service3.png')}}">
-                  <h3 class="services__title">Пластическая хирургия</h3>
+                  <h3 class="services__title">Диагностика</h3>
                   <ul>
-                     <li>Реконструктивная хирургия</li>
-                     <li>Косметическая хирургия</li>
-                     <li>Эндоскопические технологии</li>
-                     <li>Процедуры интимной хирургии</li>
+                     <li>Все виды и методы современной диагностики</li>
                   </ul>
-                  <a class="services__further" href="#">{{__('Далее')}}</a>
                </li>
                <li class="services-item">
                   <img class="services__img" src="{{asset('img/service4.png')}}">
-                  <h3 class="services__title">Акушерство и гинекология</h3>
+                  <h3 class="services__title">Лечение</h3>
                   <ul>
-                     <li>Лечение женского бесплодия</li>
-                     <li>Лечение эрозии шейки матки</li>
-                     <li>Лечение заболеваний яичников</li>
-                     <li>ЭКО</li>
+                     <li>Все виды современного лечения</li>
                   </ul>
-                  <a class="services__further" href="#">{{__('Далее')}}</a>
                </li>
                <li class="services-item">
                   <img class="services__img" src="{{asset('img/service5.png')}}">
-                  <h3 class="services__title">Офтальмология</h3>
+                  <h3 class="services__title">Реабилитация</h3>
                   <ul>
-                     <li>Лазерная коррекция зрения</li>
-                     <li>Кросслинкинг роговицы</li>
-                     <li>Кератопластика</li>
-                     <li>Лечение глаукомы и катаракты</li>
+                     <li>Все виды реабилитационных мероприятий</li>
                   </ul>
-                  <a class="services__further" href="#">{{__('Далее')}}</a>
                </li>
                <li class="services-item">
                   <img class="services__img" src="{{asset('img/service6.png')}}">
-                  <h3 class="services__title">Лечение онкологии</h3>
+                  <h3 class="services__title">Косметология</h3>
                   <ul>
-                     <li>Брахитерапия</li>
-                     <li>Лучевая терапия</li>
-                     <li>«Терапия цели»</li>
-                     <li>Химиотерапия</li>
+                     <li>Хирургическая и не-хирургическая</li>
                   </ul>
-                  <a class="services__further" href="#">{{__('Далее')}}</a>
                </li>
-               <li class="services-item">
+               <li class="services-item services-item--long-title">
                   <img class="services__img" src="{{asset('img/service7.png')}}">
-                  <h3 class="services__title">Кардиология и кардиохирургия</h3>
+                  <h3 class="services__title">Cанаторно-курортное лечение</h3>
                   <ul>
-                     <li>Радиочастотная абляция (РЧА)</li>
-                     <li>Консультации, диагностика и лечение</li>
-                     <li>Ангиопластика</li>
-                     <li>Установка кардиостимулятора сердца</li>
+                     <li>Все виды</li>
                   </ul>
-                  <a class="services__further" href="#">{{__('Далее')}}</a>
                </li>
                <li class="services-item">
                   <img class="services__img" src="{{asset('img/service8.png')}}">
-                  <h3 class="services__title">Урология и нефрология</h3>
+                  <h3 class="services__title">Санитарная авиация</h3>
                   <ul>
-                     <li>Болезнь Пейрони</li>
-                     <li>Гемодиализ</li>
-                     <li>Лазерное лечение недержания мочи</li>
-                     <li>Урофлоуметрия</li>
+                     <li>Авиация, предназначенная для оказания экстренной медицинской помощи</li>
                   </ul>
-                  <a class="services__further" href="#">{{__('Далее')}}</a>
                </li>
-               <li class="services-item">
+               <li class="services-item services-item--long-title">
                   <img class="services__img" src="{{asset('img/service9.png')}}">
-                  <h3 class="services__title">Хирургия</h3>
+                  <h3 class="services__title">Постлечебное планирование</h3>
                   <ul>
-                     <li>Холецистэктомия</li>
-                     <li>Удаление гемангиомы</li>
-                     <li>Лечение трофических язв</li>
-                     <li>Видеоторакоскопия</li>
+                     <li>Составление индивидуальных журналов, мониторинг пациентов и т.д.)</li>
                   </ul>
-                  <a class="services__further" href="#">{{__('Далее')}}</a>
                </li>
-               <li class="services-item">
+               <li class="services-item services-item--long-title">
                   <img class="services__img" src="{{asset('img/service10.png')}}">
-                  <h3 class="services__title">Неврология и нейрохирургия</h3>
+                  <h3 class="services__title">Медицинская страховка</h3>
                   <ul>
-                     <li>Лечение болезни Паркинсона</li>
-                     <li>Иглорефлексотерапия</li>
-                     <li>Рассеянный склероз</li>
-                     <li>Вегето-сосудистая дистония</li>
+                     <li>Все виды</li>
                   </ul>
-                  <a class="services__further" href="#">{{__('Далее')}}</a>
                </li>
-               <li class="services-item">
+               <li class="services-item services-item--long-title">
                   <img class="services__img" src="{{asset('img/service11.png')}}">
-                  <h3 class="services__title">Ортопедия и травматология</h3>
+                  <h3 class="services__title">Альтернативная медицина</h3>
                   <ul>
-                     <li>Лечение артроза</li>
-                     <li>Операции после спортивных травм</li>
-                     <li>Вертебропластика</li>
-                     <li>Эндопротезирование крупных суставов</li>
+                     <li>Аюрведа, Акупунктура, Гомеопатия, Натуропатия и другие виды</li>
                   </ul>
-                  <a class="services__further" href="#">{{__('Далее')}}</a>
                </li>
-               <li class="services-item">
+               <li class="services-item services-item--long-title">
                   <img class="services__img" src="{{asset('img/service12.png')}}">
-                  <h3 class="services__title">Диетология</h3>
-                  <ul>
-                     <li>Индивидуализация рациона</li>
-                     <li>Снижение веса</li>
-                     <li>Здоровое питание</li>
-                     <li>Снижение веса</li>
-                  </ul>
-                  <a class="services__further" href="#">{{__('Далее')}}</a>
+                  <h3 class="services__title">Объездной медицинский туризм </h3>
                </li>
             </ul>
          </div>

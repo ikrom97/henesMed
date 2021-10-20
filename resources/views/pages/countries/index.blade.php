@@ -4,6 +4,9 @@
    <main class="countries">
       <div class="container">
          <h1 class="heading txt-center">{{__('Страны')}}</h1>
+         <p class="txt-center">Сделаем лечение за границей доступным, а процесс выбора клиник прозрачным и быстрым!</p>
+         <p class="txt-center">Откройте для себя лучшие страны для отдыха и лечения.</p>
+         <p class="countries-pretext">На данный момент мы отправляем пациентов в лучшие медучреждения следующих стран:</p>
          <ul class="countries-list">
             <li class="countries-item">
                <a class="countries-link" href="#">
@@ -37,12 +40,6 @@
             </li>
             <li class="countries-item">
                <a class="countries-link" href="#">
-                  <img class="countries-link__img" src="{{asset('img/country6.jpg')}}">
-                  <h3 class="countries-link__title txt-center">Лечение в Китае</h3>
-               </a>
-            </li>
-            <li class="countries-item">
-               <a class="countries-link" href="#">
                   <img class="countries-link__img" src="{{asset('img/country7.jpg')}}">
                   <h3 class="countries-link__title txt-center">Лечение в ОАЭ</h3>
                </a>
@@ -66,6 +63,8 @@
                </a>
             </li>
          </ul>
+         <p class="countries-pretext">В ближайшем будущем планируем также начать сотрудничество с медучреждениями таких стран, как:</p>
+         <p>Азербайджан, Белоруссия, Грузия, Египет, Индонезия, Канада, Китай, Малайзия, Мексика, Сингапур, США, Таиланд, Украина, ЮАР, Южная Корея, Япония и другие.</p>
       </div>
    </main>
 @endsection

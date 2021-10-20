@@ -1,6 +1,10 @@
 .countries {
    padding-bottom: 30px;
 }
+.countries-pretext {
+   margin: 20px 0px;
+   font-weight: bold;
+}
 .countries-list {
    display: flex;
    flex-wrap: wrap;

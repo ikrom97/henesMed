@@ -21,14 +21,9 @@ class PagesController extends Controller
         return view('pages.gallery.index');
     }
 
-    public function medservices()
+    public function services()
     {
-        return view('pages.medservices.index');
-    }
-
-    public function nomedservices()
-    {
-        return view('pages.nomedservices.index');
+        return view('pages.services.index');
     }
 
     public function worksystem()

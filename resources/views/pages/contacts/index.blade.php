@@ -9,16 +9,13 @@
          </p>
          <ul class="contact-links contacts-page__contact-links">
             <li class="contact-links__item">
-               <a class="contact-links__link contact-links__link--phone" href="#">+90 850 777 0 838</a>
+               <a class="contact-links__link contact-links__link--phone" href="#">+992 988 977 977</a>
             </li>
             <li class="contact-links__item">
                <a class="contact-links__link contact-links__link--email" href="#">info@henesmed.tj</a>
             </li>
             <li class="contact-links__item">
                <a class="contact-links__link contact-links__link--site" href="#">www.henesmed.tj</a>
-            </li>
-            <li class="contact-links__item">
-               <a class="contact-links__link contact-links__link--feedback" href="#">Adnan Menderes Bulv</a>
             </li>
          </ul>
          <h2 class="title txt-center">{{__('Контактная форма')}}</h2>
