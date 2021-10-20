@@ -1,9 +1,29 @@
 <header class="header">
    <div class="container">
-      <nav class="header__navigation">
+      <div class="header-top-wrapper">
          <a class="home-link" href="{{route('home')}}">
             <img class="logo" src="{{asset('img/logo.png')}}" alt="{{__('Логотип компании')}}">
          </a>
+         <form class="search hidden">
+            <input class="search__input" type="search" placeholder="{{__('Поиск')}}">
+            <button class="search__button" type="button"></button>
+         </form>
+         <ul class="socials">
+            <li class="socials__item">
+               <a class="socials__link socials__link--logout" href="{{route('auth.logout')}}">{{__('Выйти')}}</a>
+            </li>
+         </ul>
+         <ul class="localizations">
+            <li class="localizations__item">
+               <a class="localizations__link {{App::currentLocale() == 'en' ? 'localizations__link--active' : ''}}" href="{{route('localization')}}?lang=en">en</a>
+            </li>
+            <li class="localizations__item">
+               <a class="localizations__link {{App::currentLocale() == 'ru' ? 'localizations__link--active' : ''}}" href="{{route('localization')}}?lang=ru">ru</a>
+            </li>
+         </ul>
+         <button class="hamburger" type="button">{{__('Меню')}}</button>
+      </div>
+      <nav class="header__navigation">
          <ul class="pages-navigation">
             <li class="pages-navigation__item">
                <a class="pages-navigation__link {{$route == 'about' || $route == 'gallery' ? 'pages-navigation__link--active' : ''}}">{{__('О Компании')}}</a>
@@ -36,26 +56,6 @@
             </li>
          </ul>
       </nav>
-      <div class="header-top-wrapper">
-         <form class="search hidden">
-            <input class="search__input" type="search" placeholder="{{__('Поиск')}}">
-            <button class="search__button" type="button"></button>
-         </form>
-         <ul class="socials">
-            <li class="socials__item">
-               <a class="socials__link socials__link--logout" href="{{route('auth.logout')}}">{{__('Выйти')}}</a>
-            </li>
-         </ul>
-         <ul class="localizations">
-            <li class="localizations__item">
-               <a class="localizations__link {{App::currentLocale() == 'en' ? 'localizations__link--active' : ''}}" href="{{route('localization')}}?lang=en">en</a>
-            </li>
-            <li class="localizations__item">
-               <a class="localizations__link {{App::currentLocale() == 'ru' ? 'localizations__link--active' : ''}}" href="{{route('localization')}}?lang=ru">ru</a>
-            </li>
-         </ul>
-         <button class="hamburger" type="button">{{__('Меню')}}</button>
-      </div>
    </div>
    <ul class="mobile-navigation hidden">
       <li class="mobile-navigation__item">
