@@ -12,98 +12,10 @@
             </div>
          </div>
       </section>
-      <section class="service">
-         <div class="container">
-            <h2 class="title txt-center">{{__('Услуги')}}</h2>
-            <ul class="services">
-               <li class="services-item">
-                  <img class="services__img" src="{{asset('img/service1.png')}}">
-                  <h3 class="services__title">Профилактика</h3>
-                  <ul>
-                     <li>
-                        Общая проверка организма, индивидуальные программы по проверке организма, 
-                        вакцинация, профилактические программы и т.д.)
-                     </li>
-                  </ul>
-               </li>
-               <li class="services-item">
-                  <img class="services__img" src="{{asset('img/service2.png')}}">
-                  <h3 class="services__title">Телемедицина</h3>
-                  <ul>
-                     <li>
-                        Организация онлайн консультаций с врачами/специалистами из других стран мира
-                     </li>
-                  </ul>
-               </li>
-               <li class="services-item">
-                  <img class="services__img" src="{{asset('img/service3.png')}}">
-                  <h3 class="services__title">Диагностика</h3>
-                  <ul>
-                     <li>Все виды и методы современной диагностики</li>
-                  </ul>
-               </li>
-               <li class="services-item">
-                  <img class="services__img" src="{{asset('img/service4.png')}}">
-                  <h3 class="services__title">Лечение</h3>
-                  <ul>
-                     <li>Все виды современного лечения</li>
-                  </ul>
-               </li>
-               <li class="services-item">
-                  <img class="services__img" src="{{asset('img/service5.png')}}">
-                  <h3 class="services__title">Реабилитация</h3>
-                  <ul>
-                     <li>Все виды реабилитационных мероприятий</li>
-                  </ul>
-               </li>
-               <li class="services-item">
-                  <img class="services__img" src="{{asset('img/service6.png')}}">
-                  <h3 class="services__title">Косметология</h3>
-                  <ul>
-                     <li>Хирургическая и не-хирургическая</li>
-                  </ul>
-               </li>
-               <li class="services-item services-item--long-title">
-                  <img class="services__img" src="{{asset('img/service7.png')}}">
-                  <h3 class="services__title">Cанаторно-курортное лечение</h3>
-                  <ul>
-                     <li>Все виды</li>
-                  </ul>
-               </li>
-               <li class="services-item">
-                  <img class="services__img" src="{{asset('img/service8.png')}}">
-                  <h3 class="services__title">Санитарная авиация</h3>
-                  <ul>
-                     <li>Авиация, предназначенная для оказания экстренной медицинской помощи</li>
-                  </ul>
-               </li>
-               <li class="services-item services-item--long-title">
-                  <img class="services__img" src="{{asset('img/service9.png')}}">
-                  <h3 class="services__title">Постлечебное планирование</h3>
-                  <ul>
-                     <li>Составление индивидуальных журналов, мониторинг пациентов и т.д.)</li>
-                  </ul>
-               </li>
-               <li class="services-item services-item--long-title">
-                  <img class="services__img" src="{{asset('img/service10.png')}}">
-                  <h3 class="services__title">Медицинская страховка</h3>
-                  <ul>
-                     <li>Все виды</li>
-                  </ul>
-               </li>
-               <li class="services-item services-item--long-title">
-                  <img class="services__img" src="{{asset('img/service11.png')}}">
-                  <h3 class="services__title">Альтернативная медицина</h3>
-                  <ul>
-                     <li>Аюрведа, Акупунктура, Гомеопатия, Натуропатия и другие виды</li>
-                  </ul>
-               </li>
-               <li class="services-item services-item--long-title">
-                  <img class="services__img" src="{{asset('img/service12.png')}}">
-                  <h3 class="services__title">Объездной медицинский туризм </h3>
-               </li>
-            </ul>
-         </div>
+      <section class="home-service__container">
+         <a class="home-service__item home-service__link home-service__link--left" href="{{route('services')}}">{{__('Медицинские услуги')}}</a>
+         <h2 class="home-service__item">{{__('Услуги')}}</h2>
+         <a class="home-service__item home-service__link home-service__link--right" href="{{route('services')}}">{{__('Не медицинские услуги')}}</a>
       </section>
       <section class="partners">
          <div class="container">
