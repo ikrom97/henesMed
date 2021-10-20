@@ -47,7 +47,8 @@ ul {
 }
 .title {
   font-size: 22px;
-  padding: 15px 0px;
+  padding: 40px 0px;
+  padding-bottom: 20px;
 }
 .txt-white {
   color: #fff;
@@ -284,7 +285,7 @@ img {
    font-size: 24px;
 }
 .socials__link--logout::after {
-   content: "\f189";
+   content: "\f2f5";
    font-size: 20px;
 }
 .localizations {
@@ -637,6 +638,20 @@ img {
 }
 .home__countries-list {
    justify-content: center;
+}
+.home__countries-title {
+   position: absolute;
+   bottom: 0px;
+   width: 100%;
+   color: #fff;
+   text-transform: uppercase;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100%;
+   background: rgba(0, 0, 0, 0.5);
+   letter-spacing: 1px;
+   font-size: 20px;
 }
 /*! Services */
 .services {

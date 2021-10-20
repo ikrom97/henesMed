@@ -18,13 +18,13 @@
             <li class="countries-item">
                <a class="countries-link" href="{{route('services')}}">
                   <img class="countries-link__img" src="{{asset('img/country1.jpg')}}">
-                  <h3 class="countries-link__title txt-center">{{__('Медицинские услуги')}}</h3>
+                  <h3 class="home__countries-title txt-center">{{__('Медицинские услуги')}}</h3>
                </a>
             </li>
             <li class="countries-item">
                <a class="countries-link" href="{{route('services')}}#nomedservices">
                   <img class="countries-link__img" src="{{asset('img/country2.jpg')}}">
-                  <h3 class="countries-link__title txt-center">{{__('Не медицинские услуги')}}</h3>
+                  <h3 class="home__countries-title txt-center">{{__('Не медицинские услуги')}}</h3>
                </a>
             </li>
          </ul>

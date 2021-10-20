@@ -191,7 +191,7 @@
    font-size: 24px;
 }
 .socials__link--logout::after {
-   content: "\f189";
+   content: "\f2f5";
    font-size: 20px;
 }
 .localizations {
