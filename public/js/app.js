@@ -97,7 +97,14 @@ if (commentsCarousel) {
 /*!**********************************************!*\
   !*** ./resources/js/pages/contacts/index.js ***!
   \**********************************************/
+var contactsPage = document.querySelector('[data-id="contacts-page"]');
 
+if (contactsPage) {
+  var submitBtn = contactsPage.querySelector('[data-id="submit-btn"]');
+  submitBtn.addEventListener('click', function () {
+    submitBtn.classList.remove('hidden');
+  });
+}
 })();
 
 // This entry need to be wrapped in an IIFE because it need to be isolated against other entry modules.

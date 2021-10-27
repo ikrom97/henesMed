@@ -3,6 +3,7 @@
 use App\Http\Controllers\LocalizationController;
 use App\Http\Controllers\PagesController;
 use App\Http\Controllers\AuthController;
+use App\Http\Controllers\MailController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -33,4 +34,6 @@ Route::group(['middleware' => 'AuthMiddleware'], function () {
    Route::get('/partners', [PagesController::class, 'partners'])->name('partners');
    Route::get('/reviews', [PagesController::class, 'reviews'])->name('reviews');
    Route::get('/contacts', [PagesController::class, 'contacts'])->name('contacts');
+   // Mail routes
+   Route::post('/mails/contact', [MailController::class, 'sendContact'])->name('mails.contact');
 });

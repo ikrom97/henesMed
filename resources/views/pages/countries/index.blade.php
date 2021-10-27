@@ -6,7 +6,7 @@
          <h1 class="heading txt-center">{{__('Страны')}}</h1>
          <p class="txt-center">Сделаем лечение за границей доступным, а процесс выбора клиник прозрачным и быстрым!</p>
          <p class="txt-center">Откройте для себя лучшие страны для отдыха и лечения.</p>
-         <p class="countries-pretext">На данный момент мы отправляем пациентов в лучшие медучреждения следующих стран:</p>
+         <p class="countries-pretext txt-center">На данный момент мы отправляем пациентов в лучшие медучреждения следующих стран:</p>
          <ul class="countries-list">
             <li class="countries-item">
                <a class="countries-link" href="#">

@@ -8,7 +8,7 @@
    <meta name="robots" content="none">
    <meta name="googlebot" content="noindex, nofollow">
    <meta name="yandex" content="none">
-   <title>Henes Med</title>
+   <title>Henes Medservices</title>
    {{-- Font awesome --}}
    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
    {{-- App styles --}}

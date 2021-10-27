@@ -156,7 +156,7 @@
                   <img class="services__img" src="{{asset('img/transport.png')}}">
                   <h3 class="services__title">Транспорт</h3>
                   <ul>
-                     <li>Организация транспорта внутри страны проиживания и пребывания</li>
+                     <li>Организация транспорта внутри страны проживания и пребывания</li>
                   </ul>
                </li>
                <li class="services-item">

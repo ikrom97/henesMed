@@ -27,6 +27,6 @@
             </li>
          </ul>
       </nav>
-      <p class="copyright">{{__('Henes Med 2021 © Все права защищены')}}</p>
+      <p class="copyright">{{__('Henes Medservices 2021 © Все права защищены')}}</p>
    </div>
 </footer>

@@ -37,7 +37,7 @@ return [
     'date_format' => 'The :attribute does not match the format :format.',
     'different' => 'The :attribute and :other must be different.',
     'digits' => 'The :attribute must be :digits digits.',
-    'digits_between' => 'The :attribute must be between :min and :max digits.',
+    'digits_between' => 'Поле :attribute должен быть между :min и :max цифрами.',
     'dimensions' => 'The :attribute has invalid image dimensions.',
     'distinct' => 'The :attribute field has a duplicate value.',
     'email' => 'Поле :attribute должен быть действительным адресом электронной почты.',
@@ -165,6 +165,8 @@ return [
         'category' => 'категория',
         'code' => 'артикул',
         'decription' => 'описание',
+        'fullname' => 'Ф.И.О',
+        'phone' => 'телефон',
     ],
 
 ];
