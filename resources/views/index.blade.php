@@ -12,7 +12,7 @@
             </div>
          </div>
       </section>
-      <section class="home-service">
+      {{-- <section class="home-service">
          <h2 class="title txt-center">{{__('Услуги')}}</h2>
          <ul class="countries-list home__countries-list">
             <li class="countries-item">
@@ -28,7 +28,7 @@
                </a>
             </li>
          </ul>
-      </section>
+      </section> --}}
       <section class="partners">
          <div class="container">
             <h2 class="title txt-center">{{__('Наши партнеры')}}</h2>
